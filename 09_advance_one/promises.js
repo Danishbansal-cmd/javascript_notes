@@ -1,5 +1,5 @@
 const promiseOne = new Promise(function(resolve, reject){
-    //Do an async task
+    // Do an async task
     // DB calls, cryptography, network
     setTimeout(function(){
         console.log('Async task is compelete');
@@ -16,7 +16,6 @@ new Promise(function(resolve, reject){
         console.log("Async task 2");
         resolve()
     }, 1000)
-
 }).then(function(){
     console.log("Async 2 resolved");
 })
@@ -42,8 +41,8 @@ const promiseFour = new Promise(function(resolve, reject){
     }, 1000)
 })
 
- promiseFour
- .then((user) => {
+promiseFour
+.then((user) => {
     console.log(user);
     return user.username
 }).then((username) => {
@@ -79,7 +78,6 @@ consumePromiseFive()
 // async function getAllUsers(){
 //     try {
 //         const response = await fetch('https://jsonplaceholder.typicode.com/users')
-
 //         const data = await response.json()
 //         console.log(data);
 //     } catch (error) {
@@ -95,7 +93,7 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 })
 .then((data) => {
     console.log(data);
-})
+})  
 .catch((error) => console.log(error))
 
 // promise.all

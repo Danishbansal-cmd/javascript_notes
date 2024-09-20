@@ -14,7 +14,6 @@ class User {
     get password(){
         return `${this._password}hitesh`
     }
-
     set password(value){
         this._password = value
     }
@@ -22,3 +21,5 @@ class User {
 
 const hitesh = new User("h@hitesh.ai", "abc")
 console.log(hitesh.email);
+hitesh.email() = "asdfadfasdf";
+console.log(hitesh.email)

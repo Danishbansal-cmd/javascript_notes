@@ -10,18 +10,20 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // myArr.push(6)
 // myArr.push(7)
+// console.log("myArr: " + myArr);
 // myArr.pop()
+// console.log("myArr: " + myArr);
 
 // myArr.unshift(9)
 // myArr.shift()
+// console.log("myArr: " + myArr);
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()
-
-// console.log(myArr);
-// console.log( newArr);
+const newArr = myArr.join()
+console.log(myArr);
+console.log( newArr);
 
 
 // slice, splice

@@ -1,11 +1,15 @@
 let score = "hitesh"
+let someaa = "3486"
 
 //console.log(typeof score);
 //console.log(typeof(score));
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+someaa = Number(3486)
+// console.log("typeof valueInNumber:" + typeof valueInNumber);
+// console.log("valueInNumber: " + valueInNumber);
+// console.log(someaa);
+// console.log("Number('sdf'): " + Number("sdf"));
 
 
 // "33" => 33
@@ -15,17 +19,21 @@ let valueInNumber = Number(score)
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+ console.log("booleanIsLoggedIn: " + booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
 // "hitesh" => true
 
+// console.log("Boolean('daf'): " + Boolean("daf"));
+// console.log("Boolean('34'): " + Boolean("34"));
+// console.log("Boolean(''): " + Boolean(""));
+
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+// console.log("stringNumber: " + stringNumber);
+// console.log("typeof stringNumber: " + typeof stringNumber);
 
 // *********************** Operations ***********************
 
@@ -62,7 +70,7 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion

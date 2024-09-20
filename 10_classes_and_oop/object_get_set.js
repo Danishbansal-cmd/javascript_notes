@@ -1,16 +1,16 @@
 const User = {
-    _email: 'h@hc.com',
+    email: 'h@hc.com',
     _password: "abc",
 
 
-    get email(){
-        return this._email.toUpperCase()
+    get emaill(){
+        return this.email
     },
 
-    set email(value){
-        this._email = value
-    }
+    // set email(value){
+    //     this._email = value
+    // }
 }
 
 const tea = Object.create(User)
-console.log(tea.email);
+console.log(tea.emaill);

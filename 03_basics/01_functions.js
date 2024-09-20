@@ -8,7 +8,7 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+sayMyName()
 
 // function addTwoNumbers(number1, number2){
 
@@ -35,7 +35,13 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage("hitesh"))
+//statement is false, because default is there
+console.log(loginUserMessage()) 
+// statement is true, because it empty string is false and reciprocal is
+// is true
+console.log(loginUserMessage(""))
+console.log(Boolean(!""))
 // console.log(loginUserMessage("hitesh"))
 
 
@@ -43,7 +49,7 @@ function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
     username: "hitesh",
