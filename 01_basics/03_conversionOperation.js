@@ -32,7 +32,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-// console.log("stringNumber: " + stringNumber);
+console.log("stringNumber: " + stringNumber);
 // console.log("typeof stringNumber: " + typeof stringNumber);
 
 // *********************** Operations ***********************
@@ -40,6 +40,7 @@ let stringNumber = String(someNumber)
 let value = 3
 let negValue = -value
 // console.log(negValue);
+// console.log('typeof negValue ' + typeof negValue);
 
 // console.log(2+2);
 // console.log(2-2);
@@ -63,6 +64,10 @@ let str3 = str1 + str2
 
 // console.log(+true);
 // console.log(+"");
+
+// console.log('Number(null) ' + Number(null))
+// console.log('Number({}) ' + Number({}) + " " + typeof {})
+// console.log('Number(undefined) ' + Number(undefined))
 
 let num1, num2, num3
 

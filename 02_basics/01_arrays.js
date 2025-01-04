@@ -14,9 +14,9 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.pop()
 // console.log("myArr: " + myArr);
 
-// myArr.unshift(9)
-// myArr.shift()
-// console.log("myArr: " + myArr);
+myArr.unshift(9)
+myArr.shift()
+console.log("myArr: " + myArr);
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));

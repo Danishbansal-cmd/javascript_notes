@@ -33,5 +33,20 @@ JsUser.greeting = function(){
 JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
-// console.log(JsUser.greeting());
-// console.log(JsUser.greetingTwo());
+
+const bindObject = {
+    name : 'Danish Bansal'
+}
+
+// to check what it would print in this way
+JsUser.greetingTwo();
+
+// to immediately call use the call()
+JsUser.greetingTwo.call(bindObject);
+
+// to not immediately call use the bind()
+const functionFromBind = JsUser.greetingTwo.bind(bindObject);
+functionFromBind();
+
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
